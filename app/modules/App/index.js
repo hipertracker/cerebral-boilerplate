@@ -1,7 +1,7 @@
-export default module => {
-
+export default (module, controller) => {
   module.addState({
-    currentPage: 'home'
+    currentPage: 'home',
+    globalMessage: controller.get('globalMessage')
   })
 
 }

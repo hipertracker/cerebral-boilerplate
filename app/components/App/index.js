@@ -4,28 +4,32 @@ import {connect} from 'cerebral-view-react'
 import Admin from '../Admin'
 import Home from '../Home'
 import Navbar from './Navbar'
-import {PageType} from '../../types'
+import {PageType, StringType} from '../../types'
 
 const pages = {
   home: Home,
   admin: Admin
 }
 
-const App = ({currentPage}) => {
+const App = ({currentPage, globalMessage}) => {
   const Page = pages[currentPage]
   return (
     <div>
       <Navbar page={currentPage}/>
       <Page/>
+      <hr/>
+      {globalMessage}
     </div>
   )
 }
 
 App.propTypes = {
-  currentPage: PageType
+  currentPage: PageType,
+  globalMessage: StringType
 }
 
 export default connect({
-  currentPage: 'app.currentPage'
+  currentPage: 'app.currentPage',
+  globalMessage: 'app.globalMessage'
 }, App)
 

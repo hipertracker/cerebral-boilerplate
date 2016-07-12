@@ -5,7 +5,7 @@ import Http from 'cerebral-module-http'
 import App from './modules/App'
 
 const controller = Controller(Model({
-  globalMessage: 'That is a Global Message'
+  globalMessage: 'This is a Global Message'
 }))
 
 controller.addModules({
