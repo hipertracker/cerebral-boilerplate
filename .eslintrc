@@ -18,7 +18,7 @@
         "no-console": 1,
         "new-cap": [2, {"capIsNew": false}],
         "react/prop-types": [2, {"ignore": ["signals"]}],
-        "no-unused-vars": 2
+        "no-unused-vars": 1
     },
     "globals": {
         "describe": false,
