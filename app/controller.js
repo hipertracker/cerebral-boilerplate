@@ -19,7 +19,7 @@ controller.addModules({
   http: Http(),
   devtools: DevTools(),
   router: Router({
-    '/': 'home.pageOpened',
+    '/home': 'home.pageOpened',
     '/admin': 'admin.pageOpened'
   }, {
     onlyHash: true

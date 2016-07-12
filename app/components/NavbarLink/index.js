@@ -1,18 +1,37 @@
 // eslint-disable-next-line
 import React from 'react'
-import {PageType, StringType} from '../../types'
+import {connect} from 'cerebral-view-react'
 import classNames from 'classnames'
+import {PageType, StringType} from '../../types'
 
-const NavbarLink = ({page, current, label}) => {
-  const styles = classNames({
-    'uk-active': page === current
-  })
+class NavbarLink extends React.Component {
+  constructor(props) {
+    super(props)
+    this.gotoPage = this.gotoPage.bind(this)
+  }
 
-  return (
-    <li className={styles}>
-      <a href="#">{label}</a>
-    </li>
-  )
+  gotoPage() {
+    const {page, signals} = this.props
+    signals[page].pageOpened()
+  }
+
+  render() {
+    const {page, current, label} = this.props
+    const styles = classNames({
+      'uk-active': page === current
+    })
+
+    // const url = `/#/${page}`
+    // it also works: <a href={url}>...
+
+    return (
+      <li className={styles}>
+        <a onClick={this.gotoPage}>
+          {label}
+        </a>
+      </li>
+    )
+  }
 }
 
 NavbarLink.propTypes = {
@@ -21,4 +40,9 @@ NavbarLink.propTypes = {
   label: StringType
 }
 
-export default NavbarLink
+export default connect({
+  currentPage: 'app.currentPage'
+}, NavbarLink)
+
+
+
