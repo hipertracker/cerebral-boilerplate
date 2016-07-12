@@ -1,0 +1,11 @@
+{
+    "presets": ["es2015-webpack", "react", "stage-0", "airbnb"],
+    "env": {
+        "test": {
+            "plugins": [
+                ["transform-decorators-legacy"],
+                ["__coverage__", {"ignore": "*.+(test|stub).*"}]
+            ]
+        }
+    }
+}
