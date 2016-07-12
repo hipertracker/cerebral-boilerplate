@@ -3,7 +3,7 @@ import openPage from './chains/openPage'
 export default module => {
 
   module.addState({
-    currentPage: 'home'
+    currentPage: 'admin'
   })
 
   module.addSignals({

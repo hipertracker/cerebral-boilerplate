@@ -1,6 +1,6 @@
 // eslint-disable-next-line
 import React from 'react'
-import {PageType, StringType} from '../../../types'
+import {PageType, StringType} from '../../types'
 import classNames from 'classnames'
 
 const NavbarLink = ({page, current, label}) => {
