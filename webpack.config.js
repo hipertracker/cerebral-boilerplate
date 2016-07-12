@@ -1,8 +1,7 @@
 const {resolve} = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
-var autoprefixer = require('autoprefixer');
+//const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = env => {
   const addPlugin = (add, plugin) => add ? plugin : undefined
