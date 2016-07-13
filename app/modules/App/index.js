@@ -1,4 +1,4 @@
-import notFoundRedirected from './chains/notFoundRedirected'
+import notFoundOpen from './chains/notFoundOpen'
 
 export default (module, controller) => {
 
@@ -8,7 +8,7 @@ export default (module, controller) => {
   })
 
   module.addSignals({
-    notFoundOpened: notFoundRedirected
+    notFoundOpened: notFoundOpen
   })
 
   /***
