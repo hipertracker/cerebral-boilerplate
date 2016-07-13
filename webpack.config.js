@@ -40,6 +40,7 @@ module.exports = env => {
       ]
     },
     plugins: removeEmpty([
+
       new HtmlWebpackPlugin({
         template: './index.html'
       }),

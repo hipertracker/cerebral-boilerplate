@@ -2,28 +2,26 @@ import {Controller} from 'cerebral'
 import Model from 'cerebral-model-immutable'
 import DevTools from 'cerebral-module-devtools'
 import Http from 'cerebral-module-http'
-import Router from 'cerebral-module-router'
+//import RecorderModule from 'cerebral-module-recorder'
 
-import App from './modules/App'
-import Home from './modules/Home'
-import Admin from './modules/Admin'
+import AppModule from './modules/App'
+import HomeModule from './modules/Home'
+import AdminModule from './modules/Admin'
+
+import router from './routes'
 
 const controller = Controller(Model({
   globalMessage: 'This is a Global Message'
 }))
 
 controller.addModules({
-  app: App,
-  home: Home,
-  admin: Admin,
+  app: AppModule,
+  home: HomeModule,
+  admin: AdminModule,
   http: Http(),
   devtools: DevTools(),
-  router: Router({
-    '/home': 'home.pageOpened',
-    '/admin': 'admin.pageOpened'
-  }, {
-    onlyHash: true
-  })
+  //recorder: RecorderModule(),
+  router
 })
 
 export default controller

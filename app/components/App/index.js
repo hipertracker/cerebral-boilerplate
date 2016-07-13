@@ -21,12 +21,15 @@ const App = props => {
 
   return (
     <div className={styles.container}>
+
       <Navbar page={currentPage}/>
+
       <div className={styles.content}>
         <Page/>
         <hr/>
         {globalMessage}
       </div>
+      
     </div>
   )
 }
