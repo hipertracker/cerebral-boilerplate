@@ -28,7 +28,7 @@
     "setup": "npm install && npm run validate"
   },
   "dependencies": {
-    "cerebral": "^0.35.0-beta.9",
+    "cerebral": "^0.35.0-beta.10",
     "cerebral-model-immutable": "^0.1.2",
     "cerebral-module-devtools": "^0.7.0-rc.2",
     "cerebral-module-http": "^0.2.0",
