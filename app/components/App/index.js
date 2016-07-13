@@ -2,9 +2,9 @@
 import React, {Component, PropTypes} from 'react'
 import {connect} from 'cerebral-view-react'
 
-import Admin from '../Admin'
-import Home from '../Home'
-import Navbar from '../Navbar'
+import Admin from './Admin'
+import Home from './Home'
+import Navbar from './Navbar'
 
 import {PageType, StringType} from '../../types'
 

@@ -1,10 +1,17 @@
 import notFoundOpen from './chains/notFoundOpen'
+import Home from './modules/Home'
+import Admin from './modules/Admin'
 
 export default (module, controller) => {
 
+  module.addModules({
+    home: Home,
+    admin: Admin
+  })
+
   module.addState({
     currentPage: 'home',
-    globalMessage: controller.get('globalMessage')
+    globalMessage: controller.get('globalMessage') // just an example that it is possible
   })
 
   module.addSignals({

@@ -21,7 +21,7 @@ module.exports = env => {
       pathinfo: !env.prod
     },
     context: resolve(__dirname, 'app'),
-    devtool: env.prod ? 'source-map' : 'eval',
+    devtool: env.prod ? 'source-map' : 'inline-source-map',
     bail: env.prod,
     module: {
       loaders: [{
