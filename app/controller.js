@@ -2,7 +2,7 @@ import {Controller} from 'cerebral'
 import Model from 'cerebral-model-immutable'
 import DevTools from 'cerebral-module-devtools'
 import Http from 'cerebral-module-http'
-import RecorderModule from 'cerebral-module-recorder'
+//import RecorderModule from 'cerebral-module-recorder'
 
 import AppModule from './modules/App'
 import HomeModule from './modules/Home'
@@ -20,7 +20,7 @@ controller.addModules({
   admin: AdminModule,
   http: Http(),
   devtools: DevTools(),
-  recorder: RecorderModule(),
+  //recorder: RecorderModule(),
   router
 })
 
