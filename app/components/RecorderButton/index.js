@@ -20,7 +20,7 @@ export default connect({
 
   if (props.recorder.isPlaying) {
     return React.createElement('button', {
-      style: style,
+      style,
       onClick: () => {
         signals.recorder.paused({}, {
           isRecorded: true
@@ -30,7 +30,7 @@ export default connect({
   }
   if (props.recorder.isPaused) {
     return React.createElement('button', {
-      style: style,
+      style,
       onClick: () => {
         signals.recorder.resumed()
       }
@@ -38,7 +38,7 @@ export default connect({
   }
   if (props.recorder.isRecording) {
     return React.createElement('button', {
-      style: style,
+      style,
       onClick: () => {
         signals.recorder.stopped()
       }
@@ -46,14 +46,14 @@ export default connect({
   }
   if (props.recorder.hasRecorded) {
     return React.createElement('button', {
-      style: style,
+      style,
       onClick: () => {
         signals.recorder.played()
       }
     }, 'Play')
   }
   return React.createElement('button', {
-    style: style,
+    style,
     onClick: () => {
       signals.recorder.recorded()
     }
