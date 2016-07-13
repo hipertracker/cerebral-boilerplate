@@ -1,3 +1,3 @@
-module.exports = ({service}) => {
-  service.router.redirectToSignal('app.homeOpened')
+module.exports = context => {
+  context.services.router.redirectToSignal('home.pageOpened')
 }

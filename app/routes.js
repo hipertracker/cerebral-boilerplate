@@ -5,6 +5,7 @@ export default Router({
   '/admin': 'admin.pageOpened',
   '/*': 'app.notFoundOpened'
 }, {
-  onlyHash: true
+  onlyHash: true,
+  mapper: {query: true}
 })
 
