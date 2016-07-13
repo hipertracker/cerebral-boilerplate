@@ -1,5 +1,5 @@
-import {set} from 'cerebral/operators'
+import notFoundOpen from '../actions/notFoundOpen'
 
 export default [
-  set('state:app.currentPage', 'home')
+  notFoundOpen
 ]

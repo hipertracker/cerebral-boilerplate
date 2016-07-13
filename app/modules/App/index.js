@@ -1,3 +1,5 @@
+import notFoundOpen from './chains/notFoundOpen'
+
 export default (module, controller) => {
 
   module.addState({
@@ -6,8 +8,22 @@ export default (module, controller) => {
   })
 
   module.addSignals({
-    notFoundOpened: [
-      ({services}) => services.router.redirectToSignal('app.homeOpened')
-    ]
+    notFoundOpened: notFoundOpen
   })
+
+  /***
+   * If it is a simple signal, instead of using actions, it
+   * can be used directly in the module, like that:
+   *
+   *  module.addSignals({
+   *    notFoundOpened: [
+   *      ({services}) => services.router.redirectToSignal('app.homeOpened')
+   *    ]
+   *  })
+   *
+   */
 }
+
+
+
+
