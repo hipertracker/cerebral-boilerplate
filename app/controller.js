@@ -11,7 +11,7 @@ import AdminModule from './modules/Admin'
 import router from './routes'
 
 const controller = Controller(Model({
-  globalMessage: 'This is a Global Message'
+  globalMessage: 'This is a "global" message coming from main controller'
 }))
 
 controller.addModules({
