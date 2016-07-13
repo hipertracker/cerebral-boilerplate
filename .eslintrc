@@ -26,6 +26,6 @@
         "expect": false
     },
     "settings": {
-        "import/extensions": [/\.(sass|less|css)$/]
+        "import/extensions": [/\.(less|css)$/]
     }
 }
