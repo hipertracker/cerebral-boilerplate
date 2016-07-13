@@ -61,4 +61,7 @@ export default (module, controller) => {
  controller.getSignals().smthHappened(payload, options)
 
  This function would pass a payload through a chain aka action-tree
+
+ (Thanks to @Guria for explanations)
+
  */
