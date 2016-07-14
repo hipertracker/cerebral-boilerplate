@@ -32,3 +32,4 @@ public/
 bower_components/
 /.idea/
 /dist/
+/coverage
