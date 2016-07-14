@@ -45,11 +45,16 @@ module.exports = env => {
         template: './index.html'
       }),
       ifProd(new webpack.optimize.CommonsChunkPlugin({
-        name: 'vendor'
+        name: 'common'
       })),
       ifTest(new webpack.DefinePlugin({
         'process.env': {
           NODE_ENV: JSON.stringify('test')
+        }
+      })),
+      ifProd(new webpack.DefinePlugin({
+        'process.env': {
+          NODE_ENV: JSON.stringify('production')
         }
       }))
     ]),
