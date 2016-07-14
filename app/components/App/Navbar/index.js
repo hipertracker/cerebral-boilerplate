@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React from 'react'
-import {PageType} from '../../../types'
-import NavbarLink from './NavbarLink'
+import {PageType} from 'lib/types'
+import NavbarLink from 'components/App/Navbar/NavbarLink'
 
 const Navbar = ({page}) => {
   return (

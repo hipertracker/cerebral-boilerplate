@@ -1,11 +1,11 @@
 // eslint-disable-next-line
 import React, {Component, PropTypes} from 'react'
 import {connect} from 'cerebral-view-react'
-import Admin from './Admin'
-import Home from './Home'
-import Navbar from './Navbar'
-import RecorderButton from '../RecorderButton'
-import {PageType, StringType} from '../../types'
+import Admin from 'components/App/Admin'
+import Home from 'components/App/Home'
+import Navbar from 'components/App/Navbar'
+import RecorderButton from 'components/RecorderButton'
+import {PageType, StringType} from 'lib/types'
 import styles from './styles.less'
 
 const pages = {

@@ -2,7 +2,7 @@
 import React from 'react'
 import {connect, Link} from 'cerebral-view-react'
 import classNames from 'classnames'
-import {PageType, StringType} from '../../../../types'
+import {PageType, StringType} from 'lib/types'
 
 const NavbarLink = ({page, current, label, signals}) => {
   const styles = classNames({

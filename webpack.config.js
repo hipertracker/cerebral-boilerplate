@@ -20,6 +20,12 @@ module.exports = env => {
       path: resolve(__dirname, 'dist'),
       pathinfo: !env.prod
     },
+    resolve: {
+      modules: [
+        resolve('./app'),
+        resolve('./node_modules')
+      ]
+    },
     context: resolve(__dirname, 'app'),
     devtool: env.prod ? 'source-map' : 'inline-source-map',
     bail: env.prod,
@@ -40,7 +46,6 @@ module.exports = env => {
       ]
     },
     plugins: removeEmpty([
-
       new HtmlWebpackPlugin({
         template: './index.html'
       }),

@@ -18,8 +18,11 @@
     "no-console": 1,
     "new-cap": [2, {"capIsNew": false}],
     "react/prop-types": [2, {"ignore": ["signals"]}],
-    "no-unused-vars": 1
+    "no-unused-vars": 1,
+    "import/no-unresolved": 0
   },
   "globals": {"describe": false, "it": false, "expect": false},
-  "settings": {"import/extensions": [/\.(less|css)$/]}
+  "settings": {
+    "import/extensions": [/\.(less|css)$/]
+  }
 }
