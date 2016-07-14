@@ -4,13 +4,9 @@ This is a new [Cerebral](http://www.cerebraljs.com) boilerplate with advanced We
 
 ## What is Cerebral?
 
-[Cerebral](http://cerebraljs.com) was designed to be very modular and composable for building very complex web apps. Technically Cerebral is an inteligent controller providing a scalable structure and predictable, clean UI state managment. It was designed for building complex web sites. It's architecture assumes one, central UI state, similar to Elm, Redux, [Om Next](https://github.com/omcljs/om)
+[Cerebral](http://cerebraljs.com) was designed to be very modular and composable solution for building very complex web apps in JavaScript. Technically Cerebral is an intelligent controller providing a scalable structure and management of the single, central UI state.
 
-
-All UI components are stateless and isolated from the logic. All UI logic is inside modules. Fore better debugging experience install [Chrome extension for Cerebral](https://chrome.google.com/webstore/detail/cerebral-debugger/ddefoknoniaeoikpgneklcbjlipfedbb).
-
-The boilerplater uses [CSS/LESS modules](http://glenmaddern.com/articles/css-modules), so they can be imported to any component without risk of duplicated css class name crash.
-
+The boilerplate's code example uses stateless React components as UI layer. The state of the whole UI is controlled by the central single model tree and the Cerebral's modules.
 
 ## Instalation and start
 ```
@@ -41,6 +37,3 @@ npm run build
 ```
 npm run build:prod
 ```
-
-
-
