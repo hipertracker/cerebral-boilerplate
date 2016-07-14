@@ -2,10 +2,12 @@
 import React from 'react'
 import {shallow} from 'enzyme'
 import App from '../../app/components/App'
-describe('test', () => {
-  it('<App/> exist and contains <Navbar/>', () => {
+import Navbar from '../../app/components/App/Navbar'
+
+describe('<App/>', () => {
+  it('renders <Navbar/>', () => {
     const wrapper = shallow(<App/>)
-    expect(wrapper.is('div')).to.equal(true)
+    expect(wrapper.find(Navbar)).to.have.length.of(1)
   })
 
 })
