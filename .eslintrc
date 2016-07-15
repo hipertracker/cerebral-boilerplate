@@ -16,6 +16,8 @@
     "vars-on-top": 0,
     "complexity": [2, 6],
     "no-console": 1,
+    "no-alert": 1,
+    "no-debugger": 1,
     "new-cap": [2, {"capIsNew": false}],
     "react/prop-types": [2, {"ignore": ["signals"]}],
     "no-unused-vars": 1,
