@@ -61,7 +61,7 @@
     "css-loader": "^0.23.1",
     "enzyme": "^2.3.0",
     "eslint": "^3.0.1",
-    "eslint-config-kentcdodds": "^8.0.1",
+    "eslint-config-kentcdodds": "^6.2.1",
     "eslint-import-resolver-webpack": "^0.3.0",
     "eslint-loader": "^1.4.1",
     "eslint-plugin-import": "^1.10.3",
