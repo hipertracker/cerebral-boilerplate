@@ -6,6 +6,6 @@ export default Router({
   '/*': 'app.notFoundOpened'
 }, {
   onlyHash: true,
-  mapper: {query: true}
+  query: true
 })
 
