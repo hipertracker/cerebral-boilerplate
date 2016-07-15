@@ -28,12 +28,12 @@
     "setup": "npm install && npm run validate"
   },
   "dependencies": {
-    "cerebral": "^0.35.2",
+    "cerebral": "^0.35.3",
     "cerebral-model-immutable": "^0.1.4",
     "cerebral-module-devtools": "^0.7.0",
     "cerebral-module-http": "^0.2.0",
     "cerebral-module-recorder": "^0.6.0",
-    "cerebral-module-router": "^0.15.2",
+    "cerebral-module-router": "^0.16.0",
     "cerebral-provider-modules": "^0.1.2",
     "cerebral-view-react": "^0.12.2",
     "classnames": "^2.2.5",

@@ -1,4 +1,4 @@
-import openPage from './chains/openPage'
+import {set} from 'cerebral/operators'
 
 export default module => {
 
@@ -7,6 +7,9 @@ export default module => {
   })
 
   module.addSignals({
-    pageOpened: openPage
+    // it's a simple chain action so it can be added here
+    pageOpened: [
+      set('state:app.currentPage', 'home')
+    ]
   })
 }
