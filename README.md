@@ -38,4 +38,6 @@ npm run build
 npm run build:prod
 ```
 
+## Preview
+
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/KJfg01AF1kM/0.jpg)](https://www.youtube.com/watch?v=KJfg01AF1kM&feature=youtu.be "cerebral-boilerplate - communication between pages")
