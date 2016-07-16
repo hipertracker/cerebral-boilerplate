@@ -3,6 +3,7 @@ import Model from 'cerebral-model-immutable'
 import DevTools from 'cerebral-module-devtools'
 import Http from 'cerebral-module-http'
 import RecorderModule from 'cerebral-module-recorder'
+import Useragent from 'cerebral-module-useragent'
 import App from 'modules/App'
 import router from 'lib/routes'
 
@@ -15,6 +16,7 @@ controller.addModules({
   http: Http(),
   devtools: DevTools(),
   recorder: RecorderModule(),
+  useragent: Useragent(),
   router
 })
 
