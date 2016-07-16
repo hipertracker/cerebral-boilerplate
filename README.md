@@ -43,3 +43,7 @@ npm run build:prod
 #### cerebral-boilerplate - communication between pages
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/KJfg01AF1kM/0.jpg)](https://www.youtube.com/watch?v=KJfg01AF1kM&feature=youtu.be "cerebral-boilerplate - communication between pages")
+
+#### New Cerebral Debugger PREVIEW
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/o76KvYOKg90/0.jpg)](https://www.youtube.com/watch?v=o76KvYOKg90  "New Cerebral Debugger PREVIEW")
