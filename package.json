@@ -28,7 +28,7 @@
     "setup": "npm install && npm run validate"
   },
   "dependencies": {
-    "cerebral": "^0.35.3",
+    "cerebral": "^0.35.4",
     "cerebral-model-immutable": "^0.1.4",
     "cerebral-module-devtools": "^0.7.0",
     "cerebral-module-http": "^0.2.0",
@@ -92,7 +92,7 @@
     "style-loader": "^0.13.1",
     "webpack": "^2.1.0-beta.17",
     "webpack-dev-server": "^2.1.0-beta.0",
-    "webpack-validator": "^2.2.2",
+    "webpack-validator": "^2.2.3",
     "why-did-you-update": "0.0.8"
   },
   "config": {
