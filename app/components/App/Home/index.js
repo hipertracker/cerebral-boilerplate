@@ -11,6 +11,7 @@ const Home = ({incomingMessage}) => {
     'uk-alert-warning': true,
     [blinkStyle]: incomingMessage === ''
   })
+
   return (
     <div>
       <h3>Hello from Home :)</h3>

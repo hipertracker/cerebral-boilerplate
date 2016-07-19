@@ -5,8 +5,10 @@ import {Container} from 'cerebral-view-react'
 import controller from 'lib/controller'
 import App from 'components/App'
 
+
 if (process.env.NODE_DEV !== 'production') {
   const {whyDidYouUpdate} = require('why-did-you-update')
+
   whyDidYouUpdate(React)
 }
 

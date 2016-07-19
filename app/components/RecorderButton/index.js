@@ -6,7 +6,7 @@ import {connect} from 'cerebral-view-react'
 
 export default connect({
   recorder: 'recorder'
-}, function(props) {
+}, props => {
   const style = {
     border: '1px solid black',
     borderRadius: '2px',
@@ -16,7 +16,7 @@ export default connect({
     lineHeight: '15px',
     boxSizing: 'border-box'
   }
-  var signals = props.signals
+  const signals = props.signals
 
   if (props.recorder.isPlaying) {
     return React.createElement('button', {

@@ -1,27 +1,21 @@
 {
   "extends": [
+    "kentcdodds",
     "kentcdodds/react",
-    "kentcdodds/es-next",
-    "kentcdodds/import",
     "kentcdodds/webpack"
   ],
   "rules": {
     // these are only here because I did not
     // want to update the entire codebase ¯\_(ツ)_/¯
-    "func-names": 0,
-    "no-var": 0,
-    "func-style": 0,
     "comma-dangle": 0,
-    "valid-jsdoc": 0,
-    "vars-on-top": 0,
-    "complexity": [2, 6],
-    "no-console": 1,
-    "no-alert": 1,
-    "no-debugger": 1,
-    "new-cap": [2, {"capIsNew": false}],
+    "func-style": [1, "declaration", { "allowArrowFunctions": true }],
+    "babel/new-cap": [2, {"capIsNew": false}],
     "react/prop-types": [2, {"ignore": ["signals"]}],
+    "react/jsx-space-before-closing": 0,
     "no-unused-vars": 1,
-    "import/no-unresolved": 0
+    "import/no-unresolved": 0,
+    "import/no-extraneous-dependencies": 0,
+    "global-require": 0
   },
   "globals": {"describe": false, "it": false, "expect": false},
   "settings": {
