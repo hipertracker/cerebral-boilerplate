@@ -3,7 +3,7 @@ import React from 'react'
 import {PageType} from 'lib/types'
 import NavbarLink from 'components/App/Navbar/NavbarLink'
 
-const Navbar = ({page}) => {
+export default function Navbar({page}) {
   return (
     <nav className="uk-navbar">
       <ul className="uk-navbar-nav">
@@ -26,4 +26,3 @@ Navbar.propTypes = {
   page: PageType
 }
 
-export default Navbar

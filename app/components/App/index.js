@@ -13,7 +13,7 @@ const pages = {
   admin: Admin
 }
 
-const App = props => {
+function App(props) {
   const {currentPage, globalMessage} = props
   const Page = pages[currentPage]
 
