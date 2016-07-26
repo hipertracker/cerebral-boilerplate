@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 import React from 'react'
 import {connect, Link} from 'cerebral-view-react'
 import classNames from 'classnames'

@@ -1,5 +1,4 @@
-// eslint-disable-next-line
-import React, {Component, PropTypes} from 'react'
+import React from 'react'
 import {connect} from 'cerebral-view-react'
 import Admin from 'components/App/Admin'
 import Home from 'components/App/Home'
