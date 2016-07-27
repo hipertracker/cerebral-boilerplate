@@ -50,6 +50,6 @@ npm run build:prod
 
 ## Changes
 
-* v4.1.0 RecorderButton component use new Cerebral syntax, updated to the latest Cerebral
+* v4.1.0 RecorderButton component uses new Cerebral syntax, updated to the latest Cerebral
 * v4.0.0 changed to new Cerebral syntax `connect(props=>{foo: 'app.foo'}, {showSignal: 'app.showMessage}, function Foo({foo, showSignal}) {})`. Removed PropTypes (they slow down the development and can be replaced by FlowType, later). 
 
