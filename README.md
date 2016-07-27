@@ -1,6 +1,6 @@
 # cerebral-boilerplate
 
-This is a new [Cerebral](http://www.cerebraljs.com) boilerplate with advanced Webpack, ESLint, Karma tests, settings. The Webpack settings was inspired by ["Using Webpack for Production JavaScript Applications"](https://egghead.io/courses/using-webpack-for-production-javascript-applications).
+This is a new [Cerebral](http://www.cerebraljs.com) boilerplate with advanced Webpack2, ESLint, Karma tests, settings. The Webpack settings was inspired by ["Using Webpack for Production JavaScript Applications"](https://egghead.io/courses/using-webpack-for-production-javascript-applications).
 
 ## What is Cerebral?
 
