@@ -47,3 +47,7 @@ npm run build:prod
 #### New Cerebral Debugger PREVIEW
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/o76KvYOKg90/0.jpg)](https://www.youtube.com/watch?v=o76KvYOKg90  "New Cerebral Debugger PREVIEW")
+
+## Changes
+
+* v4.0.0 changed to new Cerebral syntax `connect(props=>{foo: 'app.foo'}, {showSignal: 'app.showMessage}, function Foo({foo, showSignal}) {})`. Removed PropTypes (they slow down the development and can be replaced by FlowType, later). 
