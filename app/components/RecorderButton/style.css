@@ -1,0 +1,9 @@
+.recorder {
+  border: 1px solid black;
+  borderRadius: 2px;
+  height: 25px;
+  backgroundColor: #EAEAEA;
+  padding: 5px;
+  lineHeight: 15px;
+  boxSizing: border-box;
+}

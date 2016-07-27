@@ -18,7 +18,8 @@
     "import/no-extraneous-dependencies": 0,
     "global-require": 0,
     "indent": 0,
-    "no-console": 0
+    "no-console": 0,
+    "curly": 0
   },
   "globals": {"describe": false, "it": false, "expect": false},
   "settings": {
