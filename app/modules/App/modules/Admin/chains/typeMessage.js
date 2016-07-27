@@ -1,5 +1,6 @@
-import {copy} from 'cerebral/operators'
+import typeMessage from '../actions/typeMessage'
 
 export default [
-  copy('input:message', 'state:app.admin.message')
+  typeMessage
 ]
+

@@ -8,7 +8,7 @@ export default module => {
 
   module.addSignals({
     // it's a simple chain action so it can be added here
-    pageOpened: [
+    openPage: [
       set('state:app.currentPage', 'home')
     ]
   })

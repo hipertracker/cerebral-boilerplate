@@ -8,17 +8,21 @@
     // these are only here because I did not
     // want to update the entire codebase ¯\_(ツ)_/¯
     "comma-dangle": 0,
-    "func-style": [1, "declaration", { "allowArrowFunctions": true }],
+    "func-style": [1, "declaration", {"allowArrowFunctions": true}],
     "babel/new-cap": [2, {"capIsNew": false}],
-    "react/prop-types": [2, {"ignore": ["signals"]}],
+    "react/prop-types": [0, {"ignore": ["signals"]}],
     "react/jsx-space-before-closing": 0,
+    "react/jsx-no-bind": 0,
     "no-unused-vars": 1,
     "import/no-unresolved": 0,
     "import/no-extraneous-dependencies": 0,
-    "global-require": 0
+    "global-require": 0,
+    "indent": 0,
+    "no-console": 0
   },
   "globals": {"describe": false, "it": false, "expect": false},
   "settings": {
-    "import/extensions": [/\.(less|css)$/]
+    "import/extensions": [/\.(less|css)$/
+  ]
   }
 }

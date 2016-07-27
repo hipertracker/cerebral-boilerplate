@@ -1,6 +1,8 @@
-import notFoundOpen from './chains/notFoundOpen'
+
 import Home from './modules/Home'
 import Admin from './modules/Admin'
+import openNotFound from './chains/openNotFound'
+import redirectTo from './chains/redirectTo'
 
 export default (module, controller) => {
 
@@ -15,15 +17,14 @@ export default (module, controller) => {
   })
 
   module.addSignals({
-    notFoundOpened: notFoundOpen
+    openNotFound,
+    redirectTo,
+    // or alternative, for simple actions which have no dybamic state paths
+    //openNotFound: [
+    //  function openNotFound({services}) {
+    //    services.router.redirectToSignal('app.homeOpened')
+    //  }
+    //]
   })
-
-  //  It can be also used directly in the module::
-  //
-  //  module.addSignals({
-  //    notFoundOpened: [
-  //      ({services}) => services.router.redirectToSignal('app.homeOpened')
-  //    ]
-  //   })
 
 }

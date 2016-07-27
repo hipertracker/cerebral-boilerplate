@@ -1,5 +1,4 @@
 import React from 'react'
-import {PageType} from 'lib/types'
 import NavbarLink from 'components/App/Navbar/NavbarLink'
 
 export default function Navbar({page}) {
@@ -21,7 +20,4 @@ export default function Navbar({page}) {
   )
 }
 
-Navbar.propTypes = {
-  page: PageType
-}
 

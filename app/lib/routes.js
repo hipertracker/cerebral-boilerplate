@@ -1,9 +1,9 @@
 import Router from 'cerebral-module-router'
 
 export default Router({
-  '/home': 'app.home.pageOpened',
-  '/admin': 'app.admin.pageOpened',
-  '/*': 'app.notFoundOpened'
+  '/home': 'app.home.openPage',
+  '/admin': 'app.admin.openPage',
+  '/*': 'app.openNotFound'
 }, {
   onlyHash: true,
   query: true

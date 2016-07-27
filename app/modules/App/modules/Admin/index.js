@@ -9,14 +9,12 @@ export default module => {
   })
 
   module.addSignals({
-    // it's a simple action but for the purpose of learning, it was delegated to action chains
-    pageOpened: openPage,
-    messageTyped: typeMessage
-    /*
-    * messageTyped: {
-     chain: messageTyped,
-     immediate: true
-     },
-    * */
+    openPage,
+    typeMessage, // it's a simple action but for the purpose of learning, it was delegated to action chains
+
+    //typeMessage: {
+    //  chain: typeMessage,
+    //  immediate: true
+    //},
   })
 }

@@ -1,5 +1,6 @@
-import {set} from 'cerebral/operators'
+import openPage from '../actions/openPage'
 
 export default [
-  set('state:app.currentPage', 'admin')
+  openPage
 ]
+
