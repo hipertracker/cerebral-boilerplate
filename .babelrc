@@ -1,7 +1,8 @@
 {
   "presets": ["es2015-webpack", "react", "stage-0", "airbnb"],
   "plugins": [
-    "transform-decorators-legacy"
+    "transform-decorators-legacy",
+    "transform-flow-strip-types"
   ],
   "env": {
     "test": {
