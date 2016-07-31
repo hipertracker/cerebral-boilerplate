@@ -1,6 +1,7 @@
 {
   "extends": [
     "kentcdodds",
+    "kentcdodds/best-practices",
     "kentcdodds/react",
     "kentcdodds/webpack"
   ],
