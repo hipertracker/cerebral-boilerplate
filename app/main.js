@@ -5,7 +5,7 @@ import controller from 'lib/controller'
 import App from 'components/App'
 
 
-if (process.env.NODE_DEV !== 'production') {
+if (process.env.NODE_ENV !== 'production') {
   const {whyDidYouUpdate} = require('why-did-you-update')
 
   whyDidYouUpdate(React)
