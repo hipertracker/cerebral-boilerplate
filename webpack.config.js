@@ -11,6 +11,13 @@ module.exports = env => {
   const removeEmpty = array => array.filter(i => !!i)
 
   return {
+    devServer: {
+      quiet: true,
+      port: 8080,
+      historyApiFallback: {
+        index: '/'
+      },
+    },
     entry: {
       app: './main.js',
       vendor: ['lodash', 'jquery']
@@ -18,7 +25,8 @@ module.exports = env => {
     output: {
       filename: 'bundle.[name].[chunkhash].js',
       path: resolve(__dirname, 'dist'),
-      pathinfo: !env.prod
+      pathinfo: !env.prod,
+      publicPath: '/',
     },
     resolve: {
       modules: [
