@@ -93,8 +93,7 @@
     "style-loader": "^0.13.1",
     "webpack": "^2.1.0-beta.20",
     "webpack-dev-server": "^2.1.0-beta.0",
-    "webpack-validator": "^2.2.7",
-    "why-did-you-update": "0.0.8"
+    "webpack-validator": "^2.2.7"
   },
   "config": {
     "ghooks": {
