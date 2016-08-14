@@ -33,7 +33,7 @@
     "cerebral-module-devtools": "^0.7.1",
     "cerebral-module-http": "^0.4.5",
     "cerebral-module-recorder": "^0.6.1",
-    "cerebral-module-router": "^0.17.0",
+    "cerebral-module-router": "^0.17.1",
     "cerebral-module-useragent": "^0.10.20",
     "cerebral-provider-modules": "^0.1.2",
     "cerebral-view-react": "^0.12.11",
