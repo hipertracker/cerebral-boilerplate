@@ -9,6 +9,9 @@ This is a new [Cerebral](http://www.cerebraljs.com) boilerplate with advanced We
 The boilerplate's code example uses stateless React components as UI layer. The state of the whole UI is controlled by the central single model tree and the Cerebral's modules.
 
 ## Instalation and start
+
+This boilerplate requires Node 6.
+
 ```
 git clone https://github.com/hipertracker/cerebral-boilerplate
 cd cerebral-boilerplate
