@@ -1,5 +1,6 @@
 const webpackEnv = {test: true}
 const webpackConfig = require('./webpack.config')(webpackEnv)
+
 process.env.BABEL_ENV = 'test' // so we load the correct babel plugins
 const testGlob = 'test/**/*.test.js'
 const srcGlob = 'test/**/*!(test|stub).js'
