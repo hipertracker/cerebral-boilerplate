@@ -2,7 +2,7 @@
   "name": "cerebral-boilerplate",
   "description": "Simple boilerplate for Cerebral",
   "author": "Jaroslaw Zabiello",
-  "version": "5.5.0",
+  "version": "5.5.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/hipertracker/cerebral-boilerplate"
