@@ -4,7 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 //const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = env => {
-  const addPlugin = (add, plugin) => add ? plugin : undefined
+  const addPlugin = (add, plugin) => {
+    add ? plugin : undefined
+  }
   const ifProd = plugin => addPlugin(env.prod, plugin)
   const ifTest = plugin => addPlugin(env.test, plugin)
 
